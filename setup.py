@@ -24,6 +24,7 @@ setup(name="keras_segmentation",
             ]
       },
       install_requires=[
+            "tensorflow==2.4.1",
             "h5py<=2.10.0",
             "Keras"+keras_ver,
             "imageio==2.5.0",
