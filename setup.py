@@ -32,7 +32,7 @@ setup(name="keras_segmentation",
             "tqdm"],
       extras_require={
             # These requires provide different backends available with Keras
-            "tensorflow": ["tensorflow"],
+            "tensorflow": ["tensorflow==2.4.1"],
             "cntk": ["cntk"],
             "theano": ["theano"],
             # Default testing with tensorflow
